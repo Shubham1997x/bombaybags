@@ -8,18 +8,18 @@ import { ProductCard } from "./product-card";
 import { SendInquiryDialog } from "./send-inquiry-dialog";
 import type { CatalogData, CatalogProduct } from "@/lib/catalog";
 
-const pillClass = (active: boolean) =>
-  `rounded-lg border px-4 py-2 text-sm font-medium transition-colors active:scale-[0.98] ${
+const tabClass = (active: boolean) =>
+  `shrink-0 border-b-2 px-1 py-2.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:text-ultra ${
     active
-      ? "border-ultra bg-ultra text-paper"
-      : "border-hairline bg-white text-ink-soft hover:border-ultra hover:text-ultra"
+      ? "border-ultra text-ink"
+      : "border-transparent text-ink-soft hover:text-ultra hover:border-hairline"
   }`;
 
 const subPillClass = (active: boolean) =>
-  `rounded-md border px-3 py-1.5 text-[13px] font-medium transition-colors active:scale-[0.98] ${
+  `rounded-none border px-3 py-1.5 text-[13px] font-medium transition-colors active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ultra/40 ${
     active
       ? "border-ultra bg-tint text-ultra"
-      : "border-hairline bg-white text-ink-soft hover:border-ultra hover:text-ultra"
+      : "border-hairline bg-paper text-ink-soft hover:border-ultra hover:text-ultra"
   }`;
 
 export function CatalogPage({
@@ -82,7 +82,7 @@ export function CatalogPage({
       {basePath && (
         <Link
           href="/"
-          className="mb-4 inline-flex items-center gap-1.5 text-[13px] font-semibold text-ink-soft transition-colors hover:text-ultra"
+          className="mb-4 inline-flex items-center gap-1.5 text-[13px] font-semibold text-ink-soft transition-colors hover:text-ultra focus-visible:outline-none focus-visible:text-ultra"
         >
           <svg viewBox="0 0 16 16" fill="none" className="h-3.5 w-3.5 shrink-0" aria-hidden="true">
             <path d="M14 8H3M7 3.5 2.5 8 7 12.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
@@ -90,12 +90,12 @@ export function CatalogPage({
           Back to all collections
         </Link>
       )}
-      <div className="flex flex-col gap-3 md:flex-row md:flex-wrap md:items-center">
-        <div className="relative w-full shrink-0 md:mr-2 md:w-80 lg:w-96">
+      <div className="flex flex-col gap-4">
+        <div className="relative w-full md:w-96">
           <svg
             viewBox="0 0 24 24"
             fill="none"
-            className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-ink-soft"
+            className="pointer-events-none absolute left-0 top-1/2 h-5 w-5 -translate-y-1/2 text-ink-soft"
             aria-hidden="true"
           >
             <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="1.8" />
@@ -107,34 +107,39 @@ export function CatalogPage({
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search gloves, helmets, balls..."
             aria-label="Search products"
-            className="w-full rounded-xl border border-hairline bg-white py-3.5 pl-12 pr-4 text-[15px] text-ink shadow-[0_1px_3px_rgba(16,20,43,0.05)] outline-none transition focus:border-ultra focus:ring-2 focus:ring-ultra/25"
+            className="w-full border-b-2 border-hairline bg-transparent py-3 pl-7 pr-2 text-[15px] text-ink outline-none transition focus:border-ultra"
           />
         </div>
 
-        <div className="-mx-5 flex gap-2 overflow-x-auto px-5 pb-1 [-ms-overflow-style:none] [scrollbar-width:none] md:mx-0 md:flex-wrap md:gap-3 md:overflow-visible md:px-0 md:pb-0 [&::-webkit-scrollbar]:hidden">
-          <button
-            onClick={() => selectCategory(null)}
-            aria-pressed={categoryId === null}
-            className={`shrink-0 ${pillClass(categoryId === null)}`}
+        <div className="relative -mx-5 px-5 md:mx-0 md:px-0">
+          <div
+            className="flex gap-6 overflow-x-auto border-b border-hairline pb-0 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            style={{ maskImage: "linear-gradient(to right, black calc(100% - 24px), transparent)" }}
           >
-            All
-          </button>
-          {data.categories.map((c) => (
             <button
-              key={c.id}
-              onClick={() => selectCategory(c.id)}
-              aria-pressed={categoryId === c.id}
-              className={`shrink-0 ${pillClass(categoryId === c.id)}`}
+              onClick={() => selectCategory(null)}
+              aria-pressed={categoryId === null}
+              className={tabClass(categoryId === null)}
             >
-              {c.name}
+              All
             </button>
-          ))}
+            {data.categories.map((c) => (
+              <button
+                key={c.id}
+                onClick={() => selectCategory(c.id)}
+                aria-pressed={categoryId === c.id}
+                className={tabClass(categoryId === c.id)}
+              >
+                {c.name}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
       {activeCategory && activeCategory.subcategories.length > 0 && (
         <div className="-mx-5 mt-3 flex items-center gap-2 overflow-x-auto px-5 pb-1 [-ms-overflow-style:none] [scrollbar-width:none] md:mx-0 md:flex-wrap md:overflow-visible md:px-0 md:pb-0 [&::-webkit-scrollbar]:hidden">
-          <span className="shrink-0 text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-soft">
+          <span className="shrink-0 font-mono text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-soft">
             {activeCategory.name}:
           </span>
           <button
@@ -164,8 +169,8 @@ export function CatalogPage({
           ))}
         </div>
       ) : (
-        <div className="mt-12 rounded-xl border border-dashed border-hairline bg-white px-6 py-16 text-center">
-          <p className="font-display text-xl font-bold tracking-tight text-ink">
+        <div className="mt-12 dashed-stitch border bg-paper px-6 py-16 text-center">
+          <p className="font-display text-xl font-semibold tracking-tight text-ink">
             Nothing matches that
           </p>
           <p className="mx-auto mt-2 max-w-[40ch] text-sm leading-relaxed text-ink-soft">
@@ -177,7 +182,7 @@ export function CatalogPage({
               setQuery("");
               selectCategory(null);
             }}
-            className="mt-5 rounded-lg border border-hairline px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-ultra hover:text-ultra"
+            className="mt-5 rounded-none border border-hairline px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-ultra hover:text-ultra focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ultra/40"
           >
             Clear search & filters
           </button>

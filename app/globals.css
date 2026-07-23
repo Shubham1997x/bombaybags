@@ -1,20 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..900&family=Fraunces:ital,opsz,wght@1,9..144,300..900&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --color-paper: #fffdfa;
-  --color-tint: #f5efe4;
-  --color-ink: #241a12;
-  --color-ink-soft: #5a4d3f;
-  --color-ultra: #8a4a2c;
-  --color-plate: #2b1c12;
-  --color-hairline: #e6dccb;
-  --color-amber: #c08a2e;
-  --color-gold: #c08a2e;
-  --color-green: #8a4a2c;
+  --color-paper: #F7F3EA;
+  --color-tint: #EFE8D8;
+  --color-ink: #1C1B19;
+  --color-ink-soft: #6B6459;
+  --color-ultra: #A87C3F;
+  --color-plate: #14171F;
+  --color-hairline: #DDD4C0;
+  --color-amber: #C79A49;
+  --color-gold: #C79A49;
+  --color-green: #1EBE5A;
+  --color-stitch: #B7AA8C;
 
-  --font-display: "Archivo", system-ui, sans-serif;
-  --font-body: "Inter", system-ui, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Work Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
 
 :root {
@@ -40,6 +42,26 @@
   * {
     border-color: var(--color-hairline);
   }
+}
+
+@utility stitch-rule {
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--color-stitch) 0,
+    var(--color-stitch) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  background-repeat: repeat-x;
+  background-size: 12px 2px;
+  background-position: 0 center;
+  height: 2px;
+  width: 100%;
+}
+
+@utility dashed-stitch {
+  border-style: dashed;
+  border-color: var(--color-stitch);
 }
 
 @keyframes marquee {

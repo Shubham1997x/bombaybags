@@ -21,7 +21,7 @@ function MenuButton({ open, onClick }: { open: boolean; onClick: () => void }) {
       onClick={onClick}
       aria-label={open ? "Close menu" : "Open menu"}
       aria-expanded={open}
-      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-hairline text-ink-soft transition-colors hover:border-ultra hover:text-ultra lg:hidden"
+      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-hairline text-ink-soft transition-colors hover:border-ultra hover:text-ultra focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ultra/40 lg:hidden"
     >
       <svg viewBox="0 0 16 16" fill="none" className="h-4.5 w-4.5" aria-hidden="true">
         {open ? (
@@ -69,7 +69,7 @@ function CartButton() {
         type="button"
         onClick={() => setOpen(true)}
         aria-label={`Cart, ${count} item${count === 1 ? "" : "s"}`}
-        className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-hairline text-ink-soft transition-colors hover:border-ultra hover:text-ultra"
+        className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-hairline text-ink-soft transition-colors hover:border-ultra hover:text-ultra focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ultra/40"
       >
         <svg viewBox="0 0 16 16" fill="none" className="h-4 w-4" aria-hidden="true">
           <path
@@ -97,17 +97,14 @@ export function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-40 border-b border-hairline/60 bg-paper/85 backdrop-blur-md">
+    <header className="fixed inset-x-0 top-0 z-40 bg-paper/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-2 px-4 sm:px-5 md:px-8">
         <Link
           href="/#top"
           onClick={() => setMenuOpen(false)}
           className="flex min-w-0 shrink items-center gap-2"
         >
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-ultra font-display text-lg font-extrabold text-paper">
-            V
-          </span>
-          <span className="truncate font-display text-base font-extrabold tracking-tight text-ink sm:text-lg">
+          <span className="truncate font-display text-xl font-semibold tracking-tight text-ink sm:text-[1.375rem]">
             {site.name}
           </span>
         </Link>
@@ -119,7 +116,7 @@ export function Nav() {
               href={l.href}
               target={l.href.startsWith("http") ? "_blank" : undefined}
               rel={l.href.startsWith("http") ? "noreferrer" : undefined}
-              className="relative text-[13px] font-semibold uppercase tracking-[0.14em] text-ink-soft transition-colors after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-ultra after:transition-all after:duration-200 hover:text-ultra hover:after:w-full"
+              className="relative text-[13px] font-semibold uppercase tracking-[0.14em] text-ink-soft transition-colors after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-ultra after:transition-all after:duration-200 hover:text-ultra hover:after:w-full focus-visible:outline-none focus-visible:text-ultra focus-visible:after:w-full"
             >
               {l.label}
             </a>
@@ -148,6 +145,8 @@ export function Nav() {
           <MenuButton open={menuOpen} onClick={() => setMenuOpen((v) => !v)} />
         </div>
       </div>
+
+      <div className="stitch-rule" aria-hidden="true" />
 
       {menuOpen && (
         <nav className="border-t border-hairline/60 bg-paper px-4 py-2 lg:hidden">

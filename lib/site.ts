@@ -22,8 +22,7 @@ export const site = {
   heroSub:
     "Backpacks, totes, drawstring bags & corporate gifting — browse our full range and get the best bulk price directly on WhatsApp.",
   // Full-width hero background image (Unsplash URL or /uploads/... path).
-  heroImage:
-    "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1920&q=80",
+  heroImage: "/uploads/multicolor-laptop-sleeve-set.jpeg",
 };
 
 export function waLink(message?: string) {
