@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #fffdfa;
+  --color-tint: #f5efe4;
+  --color-ink: #241a12;
+  --color-ink-soft: #5a4d3f;
+  --color-ultra: #8a4a2c;
+  --color-plate: #2b1c12;
+  --color-hairline: #e6dccb;
+  --color-amber: #c08a2e;
+  --color-gold: #c08a2e;
+  --color-green: #8a4a2c;
+
+  --font-display: "Archivo", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+:root {
+  --radius: 0.625rem;
+  color-scheme: light;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+
+  ::selection {
+    background-color: var(--color-ultra);
+    color: var(--color-paper);
+  }
+
+  * {
+    border-color: var(--color-hairline);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
