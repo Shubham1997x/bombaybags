@@ -48,3 +48,6 @@ next-env.d.ts
 # runtime image uploads (served by app/uploads/[filename]/route.ts)
 /uploads
 
+
+# raw/unused client source media (kept locally, not needed for the site)
+/intake/archive-unused-media

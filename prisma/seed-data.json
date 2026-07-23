@@ -1,17 +1,74 @@
 {
   "collections": [
+    "Accessories",
     "Backpacks",
-    "Drawstring Bags",
-    "Carry Bags",
+    "Jute Bags",
+    "Laptop Sleeves",
     "Pouches",
-    "Travel Bags",
     "Tote Bags",
-    "Jute Bags"
+    "Travel Bags",
+    "Drawstring Bags",
+    "Carry Bags"
   ],
   "categories": [
     {
+      "name": "Luggage Tags",
+      "collection": "Accessories",
+      "subcategories": []
+    },
+    {
+      "name": "Corporate Backpacks",
+      "collection": "Backpacks",
+      "subcategories": []
+    },
+    {
       "name": "Backpacks",
       "collection": "Backpacks",
+      "subcategories": []
+    },
+    {
+      "name": "Corporate Jute Totes",
+      "collection": "Jute Bags",
+      "subcategories": []
+    },
+    {
+      "name": "Printed Jute Bags",
+      "collection": "Jute Bags",
+      "subcategories": []
+    },
+    {
+      "name": "Laptop Sleeves",
+      "collection": "Laptop Sleeves",
+      "subcategories": []
+    },
+    {
+      "name": "Travel Organizers",
+      "collection": "Pouches",
+      "subcategories": []
+    },
+    {
+      "name": "Pouches",
+      "collection": "Pouches",
+      "subcategories": []
+    },
+    {
+      "name": "Canvas Tote Bags",
+      "collection": "Tote Bags",
+      "subcategories": []
+    },
+    {
+      "name": "Promotional Canvas Bags",
+      "collection": "Tote Bags",
+      "subcategories": []
+    },
+    {
+      "name": "Food Delivery Bags",
+      "collection": "Travel Bags",
+      "subcategories": []
+    },
+    {
+      "name": "Travel Bags",
+      "collection": "Travel Bags",
       "subcategories": []
     },
     {
@@ -33,44 +90,254 @@
       "name": "Sling Bags",
       "collection": "Carry Bags",
       "subcategories": []
-    },
-    {
-      "name": "Pouches",
-      "collection": "Pouches",
-      "subcategories": []
-    },
-    {
-      "name": "Food Delivery Bags",
-      "collection": "Travel Bags",
-      "subcategories": []
-    },
-    {
-      "name": "Travel Bags",
-      "collection": "Travel Bags",
-      "subcategories": []
-    },
-    {
-      "name": "Canvas Tote Bags",
-      "collection": "Tote Bags",
-      "subcategories": []
-    },
-    {
-      "name": "Promotional Canvas Bags",
-      "collection": "Tote Bags",
-      "subcategories": []
-    },
-    {
-      "name": "Printed Jute Bags",
-      "collection": "Jute Bags",
-      "subcategories": []
     }
   ],
   "products": [
     {
+      "slug": "world-map-luggage-tag",
+      "name": "World Map Luggage Tag",
+      "blurb": "Round PU-leather luggage tag with a world map print and adjustable strap — a popular add-on for corporate travel kits.",
+      "collection": "Accessories",
+      "category": "Luggage Tags",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/world-map-luggage-tag.jpg",
+      "images": [
+        "/uploads/world-map-luggage-tag.jpg"
+      ],
+      "tags": [],
+      "description": "Round PU-leather luggage tag with a world map print and adjustable strap — a popular add-on for corporate travel kits."
+    },
+    {
+      "slug": "reebootz-corporate-laptop-backpack",
+      "name": "Corporate Branded Laptop Backpack",
+      "blurb": "Padded laptop backpack with a front organizer pocket and side mesh bottle holder, custom-branded here for ReeBootz's doorstep repair service.",
+      "collection": "Backpacks",
+      "category": "Corporate Backpacks",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/reebootz-corporate-laptop-backpack.jpeg",
+      "images": [
+        "/uploads/reebootz-corporate-laptop-backpack.jpeg"
+      ],
+      "tags": [],
+      "description": "Padded laptop backpack with a front organizer pocket and side mesh bottle holder, custom-branded here for ReeBootz's doorstep repair service."
+    },
+    {
+      "slug": "birla-gold-jute-tote-bag",
+      "name": "Corporate Jute Tote — Square with Padded Handles",
+      "blurb": "Square jute tote with rounded, padded handles — screen-printed here with Birla Gold Cement's branding for a corporate gifting order.",
+      "collection": "Jute Bags",
+      "category": "Corporate Jute Totes",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/birla-gold-jute-tote-bag.jpeg",
+      "images": [
+        "/uploads/birla-gold-jute-tote-bag.jpeg"
+      ],
+      "tags": [],
+      "description": "Square jute tote with rounded, padded handles — screen-printed here with Birla Gold Cement's branding for a corporate gifting order."
+    },
+    {
+      "slug": "black-whisky-branded-jute-tote-bag",
+      "name": "Corporate Jute Tote — Classic",
+      "blurb": "Classic cream jute tote bag with cotton web handles, custom-printed here with a client's premium liquor branding for event gifting.",
+      "collection": "Jute Bags",
+      "category": "Corporate Jute Totes",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/black-whisky-branded-jute-tote-bag.jpeg",
+      "images": [
+        "/uploads/black-whisky-branded-jute-tote-bag.jpeg"
+      ],
+      "tags": [],
+      "description": "Classic cream jute tote bag with cotton web handles, custom-printed here with a client's premium liquor branding for event gifting."
+    },
+    {
+      "slug": "danone-academy-jute-tote-bag",
+      "name": "Corporate Jute Tote — Colour Trim",
+      "blurb": "Natural jute tote with a contrast colour trim and cotton rope handles, printed here for a Danone corporate training event.",
+      "collection": "Jute Bags",
+      "category": "Corporate Jute Totes",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/danone-academy-jute-tote-bag.jpeg",
+      "images": [
+        "/uploads/danone-academy-jute-tote-bag.jpeg"
+      ],
+      "tags": [],
+      "description": "Natural jute tote with a contrast colour trim and cotton rope handles, printed here for a Danone corporate training event."
+    },
+    {
+      "slug": "kotak-life-jute-tote-bag",
+      "name": "Corporate Jute Tote — Wide",
+      "blurb": "Wide, flat-handled jute tote bag ideal for corporate gifting — printed here with Kotak Life Insurance branding.",
+      "collection": "Jute Bags",
+      "category": "Corporate Jute Totes",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/kotak-life-jute-tote-bag.jpeg",
+      "images": [
+        "/uploads/kotak-life-jute-tote-bag.jpeg"
+      ],
+      "tags": [],
+      "description": "Wide, flat-handled jute tote bag ideal for corporate gifting — printed here with Kotak Life Insurance branding."
+    },
+    {
+      "slug": "plain-jute-tote-bag",
+      "name": "Plain Jute Tote Bag",
+      "blurb": "Unbranded natural jute tote with sturdy rope handles, ready for custom logo printing in bulk.",
+      "collection": "Jute Bags",
+      "category": "Corporate Jute Totes",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/plain-jute-tote-bag.jpeg",
+      "images": [
+        "/uploads/plain-jute-tote-bag.jpeg"
+      ],
+      "tags": [],
+      "description": "Unbranded natural jute tote with sturdy rope handles, ready for custom logo printing in bulk."
+    },
+    {
+      "slug": "sbi-yono-jute-tote-bag",
+      "name": "Corporate Jute Tote — Compact",
+      "blurb": "Compact natural jute tote with a printed brand patch, made here for SBI's YONO app promotion.",
+      "collection": "Jute Bags",
+      "category": "Corporate Jute Totes",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/sbi-yono-jute-tote-bag.jpeg",
+      "images": [
+        "/uploads/sbi-yono-jute-tote-bag.jpeg"
+      ],
+      "tags": [],
+      "description": "Compact natural jute tote with a printed brand patch, made here for SBI's YONO app promotion."
+    },
+    {
+      "slug": "multicolor-laptop-sleeve-set",
+      "name": "PU Leather Laptop Sleeve",
+      "blurb": "Padded PU-leather laptop sleeve with a zip closure and carry handle, available in black, olive, tan, navy, brown and grey.",
+      "collection": "Laptop Sleeves",
+      "category": "Laptop Sleeves",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/multicolor-laptop-sleeve-set.jpeg",
+      "images": [
+        "/uploads/multicolor-laptop-sleeve-set.jpeg"
+      ],
+      "tags": [],
+      "description": "Padded PU-leather laptop sleeve with a zip closure and carry handle, available in black, olive, tan, navy, brown and grey."
+    },
+    {
+      "slug": "feeling-perfume-leather-drawstring-pouch",
+      "name": "Leather Drawstring Gift Pouch",
+      "blurb": "Small PU-leather drawstring pouch with a gold cord and foil-stamped logo — popular for perfume, jewellery and gifting packaging.",
+      "collection": "Pouches",
+      "category": "Travel Organizers",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/feeling-perfume-leather-drawstring-pouch.jpeg",
+      "images": [
+        "/uploads/feeling-perfume-leather-drawstring-pouch.jpeg"
+      ],
+      "tags": [],
+      "description": "Small PU-leather drawstring pouch with a gold cord and foil-stamped logo — popular for perfume, jewellery and gifting packaging."
+    },
+    {
+      "slug": "hummel-utility-travel-pouch",
+      "name": "Utility Travel Pouch",
+      "blurb": "Rectangular zippered utility pouch with a side carry handle, custom-branded here for Hummel's sports kit.",
+      "collection": "Pouches",
+      "category": "Travel Organizers",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/hummel-utility-travel-pouch.jpeg",
+      "images": [
+        "/uploads/hummel-utility-travel-pouch.jpeg"
+      ],
+      "tags": [],
+      "description": "Rectangular zippered utility pouch with a side carry handle, custom-branded here for Hummel's sports kit."
+    },
+    {
+      "slug": "lonopin-travel-organizer-pouch",
+      "name": "Travel Document Organizer Pouch",
+      "blurb": "Compact zippered travel organizer with a wrist strap, sized for passports, cards and cash.",
+      "collection": "Pouches",
+      "category": "Travel Organizers",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/lonopin-travel-organizer-pouch.jpeg",
+      "images": [
+        "/uploads/lonopin-travel-organizer-pouch.jpeg"
+      ],
+      "tags": [],
+      "description": "Compact zippered travel organizer with a wrist strap, sized for passports, cards and cash."
+    },
+    {
+      "slug": "sugar-cosmetic-zipper-pouch",
+      "name": "Cosmetic Zipper Pouch",
+      "blurb": "Flat-bottomed zippered cosmetic pouch in vibrant PU fabric, custom-printed here for SUGAR Cosmetics.",
+      "collection": "Pouches",
+      "category": "Travel Organizers",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/sugar-cosmetic-zipper-pouch.jpeg",
+      "images": [
+        "/uploads/sugar-cosmetic-zipper-pouch.jpeg"
+      ],
+      "tags": [],
+      "description": "Flat-bottomed zippered cosmetic pouch in vibrant PU fabric, custom-printed here for SUGAR Cosmetics."
+    },
+    {
+      "slug": "custom-printed-canvas-tote-bag-1",
+      "name": "Custom Printed Canvas Tote — Boxed Base",
+      "blurb": "Heavyweight black canvas tote with a boxed base and long shoulder handles, screen-printed for a client's arts organization.",
+      "collection": "Tote Bags",
+      "category": "Canvas Tote Bags",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/custom-printed-canvas-tote-bag-1.jpeg",
+      "images": [
+        "/uploads/custom-printed-canvas-tote-bag-1.jpeg"
+      ],
+      "tags": [],
+      "description": "Heavyweight black canvas tote with a boxed base and long shoulder handles, screen-printed for a client's arts organization."
+    },
+    {
+      "slug": "custom-printed-canvas-tote-bag-2",
+      "name": "Custom Printed Canvas Tote — Typographic",
+      "blurb": "Same boxed-base black canvas tote in a typographic print variant, showing how designs can be swapped per order.",
+      "collection": "Tote Bags",
+      "category": "Canvas Tote Bags",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/custom-printed-canvas-tote-bag-2.jpeg",
+      "images": [
+        "/uploads/custom-printed-canvas-tote-bag-2.jpeg"
+      ],
+      "tags": [],
+      "description": "Same boxed-base black canvas tote in a typographic print variant, showing how designs can be swapped per order."
+    },
+    {
+      "slug": "lovelocal-insulated-delivery-bag",
+      "name": "Insulated Food Delivery Backpack",
+      "blurb": "Large insulated delivery backpack with a rigid frame and reflective trim, built here for LoveLocal's grocery delivery riders.",
+      "collection": "Travel Bags",
+      "category": "Food Delivery Bags",
+      "subcategory": null,
+      "price": null,
+      "image": "/uploads/lovelocal-insulated-delivery-bag.jpeg",
+      "images": [
+        "/uploads/lovelocal-insulated-delivery-bag.jpeg"
+      ],
+      "tags": [],
+      "description": "Large insulated delivery backpack with a rigid frame and reflective trim, built here for LoveLocal's grocery delivery riders."
+    },
+    {
       "slug": "office-backpacks-bags",
       "name": "Office Backpacks Bags",
-      "blurb": "Laptop-friendly office backpack with 30L capacity, fits up to 15.6-inch laptops.",
-      "description": "Laptop-friendly office backpack with 30L capacity, fits up to 15.6-inch laptops. Bag Type: Laptop Backpack; Capacity: 30 L; Compatible Laptop Size: 15.6 inch",
+      "blurb": "Bag Type: Laptop Backpack; Capacity: 30 L; Compatible Laptop Size: 15.6 inch",
+      "description": "Bag Type: Laptop Backpack; Capacity: 30 L; Compatible Laptop Size: 15.6 inch",
       "collection": "Backpacks",
       "category": "Backpacks",
       "subcategory": null,
@@ -84,8 +351,8 @@
     {
       "slug": "drawstring-non-woven-bags",
       "name": "Drawstring Non Woven Bags",
-      "blurb": "Lightweight polyester drawstring bag in medium size, ideal for promotions, sports and event giveaways.",
-      "description": "Lightweight polyester drawstring bag in medium size, ideal for promotions, sports and event giveaways. Material: Polyester; Bag Size: Medium; Usage: Promotion, Sports, Event, Gifting",
+      "blurb": "Material: Polyester; Bag Size: Medium; Usage: Promotion, Sports, Event, Gifting",
+      "description": "Material: Polyester; Bag Size: Medium; Usage: Promotion, Sports, Event, Gifting",
       "collection": "Drawstring Bags",
       "category": "Drawstring Bags",
       "subcategory": null,
@@ -99,8 +366,8 @@
     {
       "slug": "small-travel-bags",
       "name": "Small Travel Bags",
-      "blurb": "Compact 30L duffle-style travel bag built for short trips and weekend getaways.",
-      "description": "Compact 30L duffle-style travel bag built for short trips and weekend getaways. Product Type: Duffle Bag; Bag type: Travel bag; Capacity: 30 L",
+      "blurb": "Product Type: Duffle Bag; Bag type: Travel bag; Capacity: 30 L",
+      "description": "Product Type: Duffle Bag; Bag type: Travel bag; Capacity: 30 L",
       "collection": "Carry Bags",
       "category": "Carry Bags",
       "subcategory": null,
@@ -114,8 +381,8 @@
     {
       "slug": "promotional-travel-pouches",
       "name": "Promotional Travel Pouches",
-      "blurb": "White non-woven travel pouch with 5kg capacity for everyday carry or giveaways.",
-      "description": "White non-woven travel pouch with 5kg capacity for everyday carry or giveaways. Material: Non Woven; Capacity: 5kg; Color: White",
+      "blurb": "Material: Non Woven; Capacity: 5kg; Color: White",
+      "description": "Material: Non Woven; Capacity: 5kg; Color: White",
       "collection": "Pouches",
       "category": "Pouches",
       "subcategory": null,
@@ -129,8 +396,8 @@
     {
       "slug": "cotton-shopping-bag",
       "name": "Cotton Shopping Bag",
-      "blurb": "Sturdy 3kg-capacity cotton shopping bag with a classic W-cut handle.",
-      "description": "Sturdy 3kg-capacity cotton shopping bag with a classic W-cut handle. Bag Capacity: 3 kg; Handle Type: W-Cut; Material: COTTON",
+      "blurb": "Bag Capacity: 3 kg; Handle Type: W-Cut; Material: COTTON",
+      "description": "Bag Capacity: 3 kg; Handle Type: W-Cut; Material: COTTON",
       "collection": "Carry Bags",
       "category": "Cotton Bags",
       "subcategory": null,
@@ -144,8 +411,8 @@
     {
       "slug": "promotional-sling-bags",
       "name": "Promotional Sling Bags",
-      "blurb": "Multicolor polyester crossbody sling bag, easy to brand for promotional giveaways.",
-      "description": "Multicolor polyester crossbody sling bag, easy to brand for promotional giveaways. Material: Polyester; Bag Type: Crossbody; Color: Multicolor",
+      "blurb": "Material: Polyester; Bag Type: Crossbody; Color: Multicolor",
+      "description": "Material: Polyester; Bag Type: Crossbody; Color: Multicolor",
       "collection": "Carry Bags",
       "category": "Sling Bags",
       "subcategory": null,
@@ -159,8 +426,8 @@
     {
       "slug": "food-delivery-bags",
       "name": "Food Delivery Bags",
-      "blurb": "Insulated polyester food delivery bag with a foil lining to keep orders hot in transit.",
-      "description": "Insulated polyester food delivery bag with a foil lining to keep orders hot in transit. Bag Type: Food Delivery Bag; Insulated Foil inside: Yes; Material: Polyester",
+      "blurb": "Bag Type: Food Delivery Bag; Insulated Foil inside: Yes; Material: Polyester",
+      "description": "Bag Type: Food Delivery Bag; Insulated Foil inside: Yes; Material: Polyester",
       "collection": "Travel Bags",
       "category": "Food Delivery Bags",
       "subcategory": null,
@@ -174,8 +441,8 @@
     {
       "slug": "laptop-backpack-bag",
       "name": "Laptop Backpack Bag",
-      "blurb": "Black polyester laptop backpack designed for daily office commutes.",
-      "description": "Black polyester laptop backpack designed for daily office commutes. Material: Polyester; Color: Black; Type Of Backpack: Laptop Backpack",
+      "blurb": "Material: Polyester; Color: Black; Type Of Backpack: Laptop Backpack",
+      "description": "Material: Polyester; Color: Black; Type Of Backpack: Laptop Backpack",
       "collection": "Backpacks",
       "category": "Backpacks",
       "subcategory": null,
@@ -189,8 +456,8 @@
     {
       "slug": "travel-backpack-bags",
       "name": "Travel Backpack Bags",
-      "blurb": "Mid-size 21–30L travel backpack in durable polyester for short trips.",
-      "description": "Mid-size 21–30L travel backpack in durable polyester for short trips. Capacity: 21–30 L; Compatible Laptop Size: No; Material: Polyester",
+      "blurb": "Capacity: 21–30 L; Compatible Laptop Size: No; Material: Polyester",
+      "description": "Capacity: 21–30 L; Compatible Laptop Size: No; Material: Polyester",
       "collection": "Backpacks",
       "category": "Backpacks",
       "subcategory": null,
@@ -204,8 +471,8 @@
     {
       "slug": "cotton-carry-bag",
       "name": "Cotton Carry Bag",
-      "blurb": "Simple white cotton carry bag with 3kg capacity and handled style.",
-      "description": "Simple white cotton carry bag with 3kg capacity and handled style. Capacity: 3 KG; Style: Handled; Color: White",
+      "blurb": "Capacity: 3 KG; Style: Handled; Color: White",
+      "description": "Capacity: 3 KG; Style: Handled; Color: White",
       "collection": "Backpacks",
       "category": "Backpacks",
       "subcategory": null,
@@ -219,8 +486,8 @@
     {
       "slug": "promotional-school-bag-for-gifting",
       "name": "Promotional School Bag for gifting",
-      "blurb": "Multi-partition polyester school bag branded Bombay Bags, great for bulk gifting.",
-      "description": "Multi-partition polyester school bag branded Bombay Bags, great for bulk gifting. Material: Polyester; Brand: Bombay Bags; Number Of Partition: Mutiple",
+      "blurb": "Material: Polyester; Brand: Bombay Bags; Number Of Partition: Mutiple",
+      "description": "Material: Polyester; Brand: Bombay Bags; Number Of Partition: Mutiple",
       "collection": "Backpacks",
       "category": "Backpacks",
       "subcategory": null,
@@ -234,8 +501,8 @@
     {
       "slug": "jute-drawstring-bag-manufacturer-in-mumbai",
       "name": "Jute Drawstring Bag Manufacturer in Mumbai",
-      "blurb": "Eco-friendly jute drawstring bag, made in India under the Bombay Bags brand.",
-      "description": "Eco-friendly jute drawstring bag, made in India under the Bombay Bags brand. Material: Jute; Brand: Bombay Bags; Country of Origin: Made in India",
+      "blurb": "Material: Jute; Brand: Bombay Bags; Country of Origin: Made in India",
+      "description": "Material: Jute; Brand: Bombay Bags; Country of Origin: Made in India",
       "collection": "Drawstring Bags",
       "category": "Drawstring Bags",
       "subcategory": null,
@@ -249,8 +516,8 @@
     {
       "slug": "drawstring-bag-backpack",
       "name": "Drawstring Bag backpack",
-      "blurb": "Single-pocket polyester drawstring backpack with a printed pattern.",
-      "description": "Single-pocket polyester drawstring backpack with a printed pattern. Material: Polyester; Number Of Pockets: 1; Pattern: Printed",
+      "blurb": "Material: Polyester; Number Of Pockets: 1; Pattern: Printed",
+      "description": "Material: Polyester; Number Of Pockets: 1; Pattern: Printed",
       "collection": "Drawstring Bags",
       "category": "Drawstring Bags",
       "subcategory": null,
@@ -264,8 +531,8 @@
     {
       "slug": "drawstring-rope-bags",
       "name": "Drawstring Rope Bags",
-      "blurb": "Printed polyester drawstring bag with matching polyester rope cords.",
-      "description": "Printed polyester drawstring bag with matching polyester rope cords. Material: Polyester; String Material: Polyester; Pattern: Printed",
+      "blurb": "Material: Polyester; String Material: Polyester; Pattern: Printed",
+      "description": "Material: Polyester; String Material: Polyester; Pattern: Printed",
       "collection": "Drawstring Bags",
       "category": "Drawstring Bags",
       "subcategory": null,
@@ -279,8 +546,8 @@
     {
       "slug": "pu-drawstring-bags",
       "name": "PU Drawstring Bags",
-      "blurb": "Single-pocket polyester drawstring bag with a polyester-nylon cord.",
-      "description": "Single-pocket polyester drawstring bag with a polyester-nylon cord. Material: Polyester; Number Of Pockets: 1; String Material: polyester Nylon",
+      "blurb": "Material: Polyester; Number Of Pockets: 1; String Material: polyester Nylon",
+      "description": "Material: Polyester; Number Of Pockets: 1; String Material: polyester Nylon",
       "collection": "Drawstring Bags",
       "category": "Drawstring Bags",
       "subcategory": null,
@@ -294,8 +561,8 @@
     {
       "slug": "canvas-tote-bag-manufacturer",
       "name": "Canvas Tote Bag Manufacturer",
-      "blurb": "White canvas tote bag with 5kg capacity, made to order in a range of materials.",
-      "description": "White canvas tote bag with 5kg capacity, made to order in a range of materials. Material: all material; Capacity: 5 Kgs; Color: White",
+      "blurb": "Material: all material; Capacity: 5 Kgs; Color: White",
+      "description": "Material: all material; Capacity: 5 Kgs; Color: White",
       "collection": "Tote Bags",
       "category": "Canvas Tote Bags",
       "subcategory": null,
@@ -309,8 +576,8 @@
     {
       "slug": "canvas-tote-bags",
       "name": "Canvas Tote Bags",
-      "blurb": "Printed canvas tote bag with a 5kg capacity and comfortable loop handles.",
-      "description": "Printed canvas tote bag with a 5kg capacity and comfortable loop handles. Capacity: 5 Kgs; Pattern: Printed; Handle Type: Loop Handle",
+      "blurb": "Capacity: 5 Kgs; Pattern: Printed; Handle Type: Loop Handle",
+      "description": "Capacity: 5 Kgs; Pattern: Printed; Handle Type: Loop Handle",
       "collection": "Tote Bags",
       "category": "Canvas Tote Bags",
       "subcategory": null,
@@ -324,8 +591,8 @@
     {
       "slug": "cotton-canvas-tote-bag",
       "name": "Cotton Canvas Tote Bag",
-      "blurb": "Printed cotton-canvas tote bag with loop handles and 5kg capacity.",
-      "description": "Printed cotton-canvas tote bag with loop handles and 5kg capacity. Pattern: Printed; Capacity: 5 Kgs; Handle Type: Loop Handle",
+      "blurb": "Pattern: Printed; Capacity: 5 Kgs; Handle Type: Loop Handle",
+      "description": "Pattern: Printed; Capacity: 5 Kgs; Handle Type: Loop Handle",
       "collection": "Tote Bags",
       "category": "Canvas Tote Bags",
       "subcategory": null,
@@ -339,8 +606,8 @@
     {
       "slug": "plain-canvas-tote-bag",
       "name": "Plain Canvas Tote Bag",
-      "blurb": "Plain white canvas tote bag with loop handles and 5kg capacity, ready for custom printing.",
-      "description": "Plain white canvas tote bag with loop handles and 5kg capacity, ready for custom printing. Capacity: 5 Kgs; Handle Type: Loop Handle; Color: White",
+      "blurb": "Capacity: 5 Kgs; Handle Type: Loop Handle; Color: White",
+      "description": "Capacity: 5 Kgs; Handle Type: Loop Handle; Color: White",
       "collection": "Tote Bags",
       "category": "Canvas Tote Bags",
       "subcategory": null,
@@ -354,8 +621,8 @@
     {
       "slug": "cotton-tote-bags",
       "name": "Cotton Tote Bags",
-      "blurb": "Bombay Bags branded cotton tote bag suited for everyday carrying.",
-      "description": "Bombay Bags branded cotton tote bag suited for everyday carrying. Brand: Bombay Bags; Usage/Application: Carry Bag; Product Type: Tote bag",
+      "blurb": "Brand: Bombay Bags; Usage/Application: Carry Bag; Product Type: Tote bag",
+      "description": "Brand: Bombay Bags; Usage/Application: Carry Bag; Product Type: Tote bag",
       "collection": "Tote Bags",
       "category": "Canvas Tote Bags",
       "subcategory": null,
@@ -369,8 +636,8 @@
     {
       "slug": "promotional-travel-bag-in-mumbai",
       "name": "Promotional Travel Bag In Mumbai",
-      "blurb": "Handled polyester travel bag with 5kg capacity, manufactured in Mumbai.",
-      "description": "Handled polyester travel bag with 5kg capacity, manufactured in Mumbai. Material: Polyester; Capacity: 5kg; Style: Handled",
+      "blurb": "Material: Polyester; Capacity: 5kg; Style: Handled",
+      "description": "Material: Polyester; Capacity: 5kg; Style: Handled",
       "collection": "Travel Bags",
       "category": "Travel Bags",
       "subcategory": null,
@@ -384,8 +651,8 @@
     {
       "slug": "promotional-travel-bag",
       "name": "Promotional Travel Bag",
-      "blurb": "Handled polyester travel bag with 5kg capacity for short trips.",
-      "description": "Handled polyester travel bag with 5kg capacity for short trips. Material: Polyester; Capacity: 5kg; Style: Handled",
+      "blurb": "Material: Polyester; Capacity: 5kg; Style: Handled",
+      "description": "Material: Polyester; Capacity: 5kg; Style: Handled",
       "collection": "Travel Bags",
       "category": "Travel Bags",
       "subcategory": null,
@@ -399,8 +666,8 @@
     {
       "slug": "promotional-travel-luggage-bag",
       "name": "Promotional Travel Luggage Bag",
-      "blurb": "Handled polyester travel luggage bag with 5kg capacity.",
-      "description": "Handled polyester travel luggage bag with 5kg capacity. Material: Polyester; Capacity: 5kg; Style: Handled",
+      "blurb": "Material: Polyester; Capacity: 5kg; Style: Handled",
+      "description": "Material: Polyester; Capacity: 5kg; Style: Handled",
       "collection": "Travel Bags",
       "category": "Travel Bags",
       "subcategory": null,
@@ -414,8 +681,8 @@
     {
       "slug": "promotional-travelling-trolley-bags",
       "name": "Promotional Travelling Trolley Bags",
-      "blurb": "Handled polyester trolley-style travel bag with 5kg capacity.",
-      "description": "Handled polyester trolley-style travel bag with 5kg capacity. Material: Polyester; Capacity: 5kg; Style: Handled",
+      "blurb": "Material: Polyester; Capacity: 5kg; Style: Handled",
+      "description": "Material: Polyester; Capacity: 5kg; Style: Handled",
       "collection": "Travel Bags",
       "category": "Travel Bags",
       "subcategory": null,
@@ -429,8 +696,8 @@
     {
       "slug": "promotional-travel-duffle-bag",
       "name": "Promotional Travel Duffle Bag",
-      "blurb": "Spacious polyester duffle bag with 5kg capacity, built for travel.",
-      "description": "Spacious polyester duffle bag with 5kg capacity, built for travel. Material: Polyester; Capacity: 5kg; Style: Handled",
+      "blurb": "Material: Polyester; Capacity: 5kg; Style: Handled",
+      "description": "Material: Polyester; Capacity: 5kg; Style: Handled",
       "collection": "Travel Bags",
       "category": "Travel Bags",
       "subcategory": null,
@@ -444,8 +711,8 @@
     {
       "slug": "promotional-pouch-bag",
       "name": "Promotional Pouch Bag",
-      "blurb": "Rectangular zippered pouch bag with a printed pattern.",
-      "description": "Rectangular zippered pouch bag with a printed pattern. Pattern: Printed; Shape: Rectangular; Closure Type: Zipper",
+      "blurb": "Pattern: Printed; Shape: Rectangular; Closure Type: Zipper",
+      "description": "Pattern: Printed; Shape: Rectangular; Closure Type: Zipper",
       "collection": "Pouches",
       "category": "Pouches",
       "subcategory": null,
@@ -459,8 +726,8 @@
     {
       "slug": "promotional-pouches",
       "name": "Promotional Pouches",
-      "blurb": "Black polyester pouch with 2kg capacity for everyday essentials.",
-      "description": "Black polyester pouch with 2kg capacity for everyday essentials. Material: Polyester; Color: Black; Capacity: 2kg",
+      "blurb": "Material: Polyester; Color: Black; Capacity: 2kg",
+      "description": "Material: Polyester; Color: Black; Capacity: 2kg",
       "collection": "Pouches",
       "category": "Pouches",
       "subcategory": null,
@@ -474,8 +741,8 @@
     {
       "slug": "side-sling-bag",
       "name": "Side Sling Bag",
-      "blurb": "PU leather side sling bag with a printed pattern, branded Bombay Bag Co.",
-      "description": "PU leather side sling bag with a printed pattern, branded Bombay Bag Co. Material: Pu Leather; Pattern: Printed; Brand: Bombay Bag Co",
+      "blurb": "Material: Pu Leather; Pattern: Printed; Brand: Bombay Bag Co",
+      "description": "Material: Pu Leather; Pattern: Printed; Brand: Bombay Bag Co",
       "collection": "Carry Bags",
       "category": "Carry Bags",
       "subcategory": null,
@@ -489,8 +756,8 @@
     {
       "slug": "promotional-carry-bags",
       "name": "Promotional Carry Bags",
-      "blurb": "Polyester carry bag with 10kg capacity, built for heavier promotional loads.",
-      "description": "Polyester carry bag with 10kg capacity, built for heavier promotional loads. Material: Polyester; Capacity: 10kg; Product Type: Carry Bag",
+      "blurb": "Material: Polyester; Capacity: 10kg; Product Type: Carry Bag",
+      "description": "Material: Polyester; Capacity: 10kg; Product Type: Carry Bag",
       "collection": "Carry Bags",
       "category": "Carry Bags",
       "subcategory": null,
@@ -504,8 +771,8 @@
     {
       "slug": "cotton-pouch-bag",
       "name": "Cotton Pouch Bag",
-      "blurb": "Off-white rectangular cotton pouch bag for everyday use.",
-      "description": "Off-white rectangular cotton pouch bag for everyday use. Color: Off White; Shape: Rectangular; Material: Cotton",
+      "blurb": "Color: Off White; Shape: Rectangular; Material: Cotton",
+      "description": "Color: Off White; Shape: Rectangular; Material: Cotton",
       "collection": "Carry Bags",
       "category": "Carry Bags",
       "subcategory": null,
@@ -519,8 +786,8 @@
     {
       "slug": "customized-backpack",
       "name": "Customized Backpack",
-      "blurb": "Large 50L+ nylon trekking backpack, fully customizable for outdoor use.",
-      "description": "Large 50L+ nylon trekking backpack, fully customizable for outdoor use. Backpack Type: Trekking Backpack; Material: Nylon; Capacity: Above 50 L",
+      "blurb": "Backpack Type: Trekking Backpack; Material: Nylon; Capacity: Above 50 L",
+      "description": "Backpack Type: Trekking Backpack; Material: Nylon; Capacity: Above 50 L",
       "collection": "Carry Bags",
       "category": "Carry Bags",
       "subcategory": null,
@@ -534,8 +801,8 @@
     {
       "slug": "canvas-promotion-tote-bag",
       "name": "Canvas Promotion Tote Bag",
-      "blurb": "Brown polyester promotional tote bag with 5kg capacity.",
-      "description": "Brown polyester promotional tote bag with 5kg capacity. Material: Polyester; Color: Brown; Capacity: 5kg",
+      "blurb": "Material: Polyester; Color: Brown; Capacity: 5kg",
+      "description": "Material: Polyester; Color: Brown; Capacity: 5kg",
       "collection": "Tote Bags",
       "category": "Promotional Canvas Bags",
       "subcategory": null,
@@ -549,8 +816,8 @@
     {
       "slug": "promotional-canvas-bags",
       "name": "Promotional Canvas Bags",
-      "blurb": "Cotton canvas bag with rope closure and a hefty 20kg weight capacity.",
-      "description": "Cotton canvas bag with rope closure and a hefty 20kg weight capacity. Weight Capacity: 20 kg; Closure Type: rope; Material: Cotton Canvas",
+      "blurb": "Weight Capacity: 20 kg; Closure Type: rope; Material: Cotton Canvas",
+      "description": "Weight Capacity: 20 kg; Closure Type: rope; Material: Cotton Canvas",
       "collection": "Tote Bags",
       "category": "Promotional Canvas Bags",
       "subcategory": null,
@@ -564,8 +831,8 @@
     {
       "slug": "promotional-canvas-tote-bag",
       "name": "Promotional Canvas Tote Bag",
-      "blurb": "White polyester canvas-style tote bag with 5kg capacity.",
-      "description": "White polyester canvas-style tote bag with 5kg capacity. Material: Polyester; Color: White; Capacity: 5kg",
+      "blurb": "Material: Polyester; Color: White; Capacity: 5kg",
+      "description": "Material: Polyester; Color: White; Capacity: 5kg",
       "collection": "Tote Bags",
       "category": "Promotional Canvas Bags",
       "subcategory": null,
@@ -579,8 +846,8 @@
     {
       "slug": "wedding-gift-jute-bag",
       "name": "Wedding Gift Jute Bag",
-      "blurb": "Handled jute bag with a printed pattern, popular for wedding favors and gifting.",
-      "description": "Handled jute bag with a printed pattern, popular for wedding favors and gifting. Material: Jute; Style: Handled; Pattern: Printed",
+      "blurb": "Material: Jute; Style: Handled; Pattern: Printed",
+      "description": "Material: Jute; Style: Handled; Pattern: Printed",
       "collection": "Jute Bags",
       "category": "Printed Jute Bags",
       "subcategory": null,
@@ -594,8 +861,8 @@
     {
       "slug": "printed-jute-bag",
       "name": "Printed Jute Bag",
-      "blurb": "Brown jute bag with an open closure and 2kg weight capacity.",
-      "description": "Brown jute bag with an open closure and 2kg weight capacity. Weight Capacity: 2 KG; Closure Type: Open; Color: Brown",
+      "blurb": "Weight Capacity: 2 KG; Closure Type: Open; Color: Brown",
+      "description": "Weight Capacity: 2 KG; Closure Type: Open; Color: Brown",
       "collection": "Jute Bags",
       "category": "Printed Jute Bags",
       "subcategory": null,
@@ -609,8 +876,8 @@
     {
       "slug": "logo-printed-jute-bags",
       "name": "Logo Printed Jute Bags",
-      "blurb": "Jute bag with custom logo printing, made to order for corporate branding.",
-      "description": "Jute bag with custom logo printing, made to order for corporate branding. Pattern: LOGO PRINTED JUTE BAG; Design Type: PRINTED; Material: Jute",
+      "blurb": "Pattern: LOGO PRINTED JUTE BAG; Design Type: PRINTED; Material: Jute",
+      "description": "Pattern: LOGO PRINTED JUTE BAG; Design Type: PRINTED; Material: Jute",
       "collection": "Jute Bags",
       "category": "Printed Jute Bags",
       "subcategory": null,
@@ -624,8 +891,8 @@
     {
       "slug": "jute-carry-bag",
       "name": "Jute Carry Bag",
-      "blurb": "Printed jute carry bag with 10kg weight capacity, made from natural fiber.",
-      "description": "Printed jute carry bag with 10kg weight capacity, made from natural fiber. Weight capacity: 10Kg; Pattern: Printed; Material: Jute",
+      "blurb": "Weight capacity: 10Kg; Pattern: Printed; Material: Jute",
+      "description": "Weight capacity: 10Kg; Pattern: Printed; Material: Jute",
       "collection": "Jute Bags",
       "category": "Printed Jute Bags",
       "subcategory": null,
